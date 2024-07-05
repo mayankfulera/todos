@@ -6,9 +6,4 @@ export default defineNuxtConfig({
     '/': { prerender: true },
     '/todos/**': { prerender: true }
   },
-  // hooks: {
-  //   'prerender:routes' ({ routes }) {
-  //     routes.clear() // Do not generate any routes (except the defaults)
-  //   }
-  // },
 })
